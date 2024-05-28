@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Metadatos -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+
+		<!-- titulo -->
+		<title>Blog de música</title>
+
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="./images/icono.png">
+
+
+
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="./librerias/Bootstrap-5-3-3/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+		<!-- Bootstrap js  -->
+		<script type="text/javascript" src="./librerias/Bootstrap-5-3-3/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js">
+  		</script>
+
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+		<!-- css ? -->
+		<link rel="stylesheet" href="./css/index.css">
+
+		<!-- js  -->
+		<script type="text/javascript" src="./js/index.js">
+  		</script>
+
+	</head>
+	<body>
+		<!--
+		<div>
+			<button type="button" class="btn btn-primary">Primary</button>
+			<button type="button" class="btn btn-secondary">Secondary</button>
+			<button type="button" class="btn btn-success">Success</button>
+			<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" class="btn btn-warning">Warning</button>
+			<button type="button" class="btn btn-info">Info</button>
+			<button type="button" class="btn btn-light">Light</button>
+			<button type="button" class="btn btn-dark">Dark</button>
+
+		</div>
+		-->
+
+		<!-- barra de navegación -->
+		<nav class="navbar navbar-expand-md " > <!-- bg-primary -->
+			<div class="container-fluid">
+				<button
+					class="navbar-toggler"
+					type="button"
+				 	data-bs-toggle="collapse"
+					data-bs-target="#navbar-toggler"
+					aria-controls="navbarTogglerDemo01"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbar-toggler">
+					<a class="" href="#">
+						<img src="./images/opeth_logo.png" width="50px" alt="Logo de la pagina web">
+					</a>
+					<ul class="navbar-nav d-flex justify-content-center align-items-center">
+						<li class="nav-item">
+							<a class="nav-link">Home</a>
+						</li>
+						<li>
+							<a>Acerca de este blog de música</a>
+						</li>
+						<li>
+							<a>Top Mis Canciones</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- Conteido de la página web -->
+
+
+		<!--
+		<div style="margin-top: 200px; margin-bottom: 200px;">
+			Contenido de mi sitio web
+		</div>
+		-->
+
+		<section class="hero">
+			<!--
+			<div class="">
+				<span class = "color-rojo" >texto1</span> <span>texto2</span>
+			</div>
+			-->
+		
+			<div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+				<img class="hero-imagen-superior rouded-circle" src="./images/imagen-principal.jpg" alt="Imagen redonda" >
+				<h1 class="">Hola, bienvenid@ a este sitio web de música</h1>
+				<h2 class="">Los generos musicales son muy diversos</h2>
+			</div>
+
+
+
+			<!--
+			<div style="display: flex; justify-content: center; align-items: center;">
+				<div>
+					<img class="hero-imagen-superior rouded-circle" src="./images/imagen-principal.jpg" alt="Imagen redonda" >
+				</div>
+				<div>
+					<h1 class="">Hola, bienvenid@ a este sitio web de música</h1>
+					<h2 class="">Los generos musicales son muy diversos</h2>
+				</div>
+				
+				
+			</div>-->
+
+
+			<div>
+				<img class="hero-imagen-inferior" src="./images/HTML-5-Badge-Logo.png" alt="Imagen inferior hero" >
+			</div>
+		</section>
+
+
+		<!-- Sobre mi sitio-->
+		<section id="sobre-mi" class="sobre-mi seccion-oscura">
+			<div class="contenedor">
+				<h2  class="seccion-titulo">Conoce este sitio web</h2>
+				<p class="seccion-texto">
+					Quisque a ultricies velit. Donec id ante sed metus imperdiet iaculis. Nulla facilisi. Ut non dictum arcu. Sed vestibulum neque malesuada, faucibus purus et, dignissim massa. Etiam hendrerit posuere vulputate. Nam sit amet nulla ex. Aenean augue sapien, tempor quis tempor eget, porttitor vel risus. Morbi laoreet at justo sit amet pharetra. Suspendisse molestie sollicitudin lobortis. Etiam felis sapien, porttitor a dictum ac, auctor non dolor. Maecenas sed lorem dolor. Quisque sit amet eleifend nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+					Cras quam nibh, bibendum efficitur ornare at, pharetra et neque. Praesent a neque libero. Pellentesque varius non tortor at interdum. Nulla imperdiet varius ipsum at malesuada. Proin porttitor suscipit justo, sit amet gravida tortor sodales ut. Etiam efficitur pharetra ipsum, rutrum venenatis nunc aliquet eu. Maecenas in vulputate leo, quis vehicula velit. Sed euismod mollis accumsan. In posuere elit et vehicula iaculis. Proin ligula nisi, sodales eu finibus quis, porta eget metus. Fusce nulla risus, semper sed feugiat at, semper nec enim. 
+				</p>
+			</div>
+		</section>
+
+
+		<!-- Experiencia (Categorias en mi explicación) -->
+		<section  class="experiencia seccion-clara">
+			<div class="container text-center">
+				<div class="row">
+				    <div class="columna col">
+				      <i class="bi bi-file-earmark-music-fill"></i>
+				      <p class="experiencia-titulo">
+				      	Instrumentos de Aire
+				      </p>
+				      <p>
+				      	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et semper neque.
+				      </p>
+				      <div class="badges-contenedor">
+				      	<span class="badge text-bg-primary">Trompeta</span>
+				      	<span class="badge text-bg-primary">Flauta</span>
+
+				      </div>
+				    </div>
+				    <div class="columna col">
+				      <i class="bi bi-file-music"></i>
+				      <p class="experiencia-titulo">
+				      	Instrumentos de cuerda
+				      </p>
+				       <p>
+				      	Nulla pulvinar a ex nec ultricies. Integer vel condimentum odio, ut tincidunt lectus. Maecenas at massa et velit ultricies tincidunt.
+				      </p>
+				      <div class="badges-contenedor">
+				      	<span class="badge text-bg-primary">Guitarras acusticas</span>
+				      	<span class="badge text-bg-primary">Guitarras electricas</span>
+				      	<span class="badge text-bg-primary">Bajos</span>
+
+				      </div>
+				    </div>
+				    <div class="columna col">
+				      <i class="bi bi-bar-chart-steps" ></i>
+				      <p class="experiencia-titulo" >
+				      	Accesorios musicales
+				      </p>
+				       <p>
+				      	Donec tempus lacus quis turpis ornare hendrerit. Donec sollicitudin quam eu odio feugiat pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+				      </p>
+				      <div class="badges-contenedor">
+				      	<span class="badge text-bg-primary">Plumilla</span>
+				      	<span class="badge text-bg-primary">cuerdas de guitarra</span>
+				      	<span class="badge text-bg-primary">Funda de guitarra</span>
+
+				      </div>
+				    </div>
+
+				</div>
+
+
+			</div>
+		</section>
+
+
+
+		<!-- Sección Proyectos -->
+		<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+			<h2>Mis productos recientes</h2>
+			<h3>Estos son algunos de los productos agregados recientemente al sitio web</h3>
+
+			<div class="container text-center proyectos-contenedor">
+			  <div class="row">
+			    <div class="col col-4">
+			      <div class="proyecto">
+			      	<img class="img-proyectos" src="./images/guitarra2.jpg" alt="Proyecto 1">
+			      	<div class="overlay">
+			      		<p>Guitarra 1</p>
+			      		<div class="iconos-contenedor">
+			      			<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">
+			      				<i class="bi bi-info-circle-fill"></i>
+			      			</a>
+			      			<a href="https://www.amazon.com.mx/" target="_blank">
+			      				<i class="bi bi-cart4"></i>
+			      			</a>
+			      			
+			      		</div>
+			      	</div>
+			      	
+			      </div>
+			    </div>
+			    <div class="col col-4">
+			      <div class="proyecto">
+			      	<img class="img-proyectos" src="./images/guitarra1.jpeg" alt="Proyecto 1">
+			      	<div class="overlay">
+			      		<p>Guitarra 2</p>
+			      		<div class="iconos-contenedor">
+			      			<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">
+			      				<i class="bi bi-info-circle-fill"></i>
+			      			</a>
+			      			<a href="https://www.amazon.com.mx/" target="_blank">
+			      				<i class="bi bi-cart4"></i>
+			      			</a>
+			      			
+			      		</div>
+			      	</div>
+			      	
+			      </div>
+			    </div>
+			    <div class="col col-4">
+			      <div class="proyecto">
+			      	<img class="img-proyectos" src="./images/guitarra1.jpeg" alt="Proyecto 1">
+			      	<div class="overlay">
+			      		<p>Guitarra 3</p>
+			      		<div class="iconos-contenedor">
+			      			<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">
+			      				<i class="bi bi-info-circle-fill"></i>
+			      			</a>
+			      			<a href="https://www.amazon.com.mx/" target="_blank">
+			      				<i class="bi bi-cart4"></i>
+			      			</a>
+			      			
+			      		</div>
+			      	</div>
+			      	
+			      </div>
+			    </div>
+
+			    <div class="col col-4">
+			      <div class="proyecto">
+			      	<img class="img-proyectos" src="./images/guitarra1.jpeg" alt="Proyecto 1">
+			      	<div class="overlay">
+			      		<p>Guitarra 4</p>
+			      		<div class="iconos-contenedor">
+			      			<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">
+			      				<i class="bi bi-info-circle-fill"></i>
+			      			</a>
+			      			<a href="https://www.amazon.com.mx/" target="_blank">
+			      				<i class="bi bi-cart4"></i>
+			      			</a>
+			      			
+			      		</div>
+			      	</div>
+			      	
+			      </div>
+			    </div>
+
+			    <div class="col col-4">
+			      <div class="proyecto">
+			      	<img class="img-proyectos" src="./images/guitarra1.jpeg" alt="Proyecto 1">
+			      	<div class="overlay">
+			      		<p>Guitarra 5</p>
+			      		<div class="iconos-contenedor">
+			      			<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">
+			      				<i class="bi bi-info-circle-fill"></i>
+			      			</a>
+			      			<a href="https://www.amazon.com.mx/" target="_blank">
+			      				<i class="bi bi-cart4"></i>
+			      			</a>
+			      			
+			      		</div>
+			      	</div>
+			      	
+			      </div>
+			    </div>
+
+			    <div class="col col-4">
+			      <div class="proyecto">
+			      	<img class="img-proyectos" src="./images/guitarra1.jpeg" alt="Proyecto 1">
+			      	<div class="overlay">
+			      		<p>Guitarra 6</p>
+			      		<div class="iconos-contenedor">
+			      			<a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">
+			      				<i class="bi bi-info-circle-fill"></i>
+			      			</a>
+			      			<a href="https://www.amazon.com.mx/" target="_blank">
+			      				<i class="bi bi-cart4"></i>
+			      			</a>
+			      			
+			      		</div>
+			      	</div>
+			      	
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			
+		</section>
+
+		<section id="testimonios" class="testimonios">
+			<h2 class="seccion-titulo">Testimonios</h2>
+			<h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes del sitio de música</h3>
+
+			<div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="container">
+							<img class="testimonio-imagen rounded-circle" src="./images/user1.png" alt="img user 1">
+							<p class="testimonio-texto">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et semper neque. Sed nisi lorem, consequat laoreet leo eget, vestibulum consequat sem..
+							</p>
+							<div class="testimonio-info">
+								<p class="cliente">Miguel</p>
+								<p class="cargo">Gerente de tienda musical EchoSound</p>
+							</div>
+						<div>
+						
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="testimonio-imagen rounded-circle" src="./images/user2.png" alt="img user 1">
+							<p class="testimonio-texto">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et semper neque. Sed nisi lorem, consequat laoreet leo eget, vestibulum consequat sem..
+							</p>
+							<div class="testimonio-info">
+								<p class="cliente">Angel</p>
+								<p class="cargo">Músico profesional</p>
+							</div>
+						<div>
+						
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="testimonio-imagen rounded-circle" src="./images/user3.png" alt="img user 1">
+							<p class="testimonio-texto">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et semper neque. Sed nisi lorem, consequat laoreet leo eget, vestibulum consequat sem..
+							</p>
+							<div class="testimonio-info">
+								<p class="cliente">Usuario 3</p>
+								<p class="cargo">Usuario normal</p>
+							</div>
+						<div>
+						
+					</div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Anterior</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Siguiente</span>
+				</button>
+
+				
+			</div>
+			
+		</section>
+
+
+
+
+
+		<!-- Contacto -->
+		<section id="contacto" class="contacto seccion-oscura">
+			<div class="container">
+				<div class="container rectangulo text-center d-flex justify-content-evenly">
+					<div class="row">
+						<div class="col col-12 col-md-4">
+							¡Hablemos¡
+						</div>
+						<div class="col col-12 col-md-4">
+							Contáctame para iniciar tu proyecto músical.
+						</div>
+						<div class="col col-12 col-md-4">
+							<a href="mailto:correo@ejemplo.com">
+								<button>
+									Contacto
+									<i class="bi bi-envelope-check-fill"></i>
+								</button>
+							</a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+
+
+
+		<!-- Pie de página -->
+		<footer class="seccion-oscura ">
+			<img class="footer-logo" src="./images/footer_logo.png" alt="Logo de pie de pagina">
+
+
+			<p>
+				Este texto es para los amantes de la música, asi que ve a <a href="https://open.spotify.com/intl-es" target="_blank">spotify</a>
+			</p>
+
+			<div>
+				<a>
+					Ir a Wikipedia
+				</a>
+				
+
+				<a>
+					Ir a Google
+				</a>
+				
+
+
+
+			</div>
+		</footer>
+
+
+	</body>
+</html>
